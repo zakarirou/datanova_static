@@ -36,7 +36,7 @@ title: Datanova
     }
 
     body {
-      background-image: url('/assets/images/9.jpg'); /* Ajustez le chemin de l'image ici */
+      background-image: url("{{ '/assets/images/9.jpg' | relative_url }}");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
